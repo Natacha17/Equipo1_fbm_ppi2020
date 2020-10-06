@@ -8,7 +8,6 @@ class Login extends Component {
         return (
    <div className="container align-items-center mt-5 text-center">
     <form className="form-signin text-center align-items-center col-6">
-    <img className="mb-4" src={Logo} alt="" width="72" height="72"/>
     <h1 className="h3 mb-5 font-weight-normal text-center text-primary">Inicie Sesión</h1>
     <label for="inputEmail" className="sr-only mb-3">Email address</label>
     <input type="email" id="inputEmail" className="form-control mb-3" placeholder="Email address" required="" autofocus=""/>
@@ -18,14 +17,15 @@ class Login extends Component {
     <label>
       <input type="checkbox" value="remember-me"/> Remember me</label>
     </div>
-   
     <button className="btn btn-lg btn-primary btn-flex mb-3 col-6" type="submit">Iniciar Sesión</button>
 
     <p className="mt-5 mb-3 text-muted">© 2017-2020</p>
     </form>
   </div>
-          );
+ 
+          ); 
     }
 }
+
  
 export default Login;
