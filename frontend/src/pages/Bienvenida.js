@@ -1,15 +1,13 @@
 import React, { Component } from 'react';
-import '../Estilos/Bienvenido.css'
+import '../Estilos/Bienvenido.css';
 
 
 class Bienvenida extends Component {
     
     render() { 
         return (
-            
-            <button type="button" class="btn btn-primary btn-lg">Siguiente</button>
 
-
+<a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Siguiente</a>
         );
       
     }}

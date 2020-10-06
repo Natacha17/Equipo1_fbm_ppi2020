@@ -13,9 +13,9 @@ function Home () {
     <p>Esta es mi página de home </p>
     <p>Bienvenido a psico-félix </p>
   
-    <Login/>
+    
     <Bienvenida/>
-    <Register/>
+   
     </>
   );
 }
