@@ -1,4 +1,4 @@
-/*import React, { Component } from 'react';
+import React, { Component } from 'react';
 
 class Register extends Component {
     
@@ -15,8 +15,8 @@ class Register extends Component {
       <input type="password" className="form-control" id="inputPassword4"/>
     </div>
   </div>
- 
-  <div className="form-group">
+
+ <div className="form-group">
     <label for="inputAddress2">Address 2</label>
     <input type="text" className="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor"/>
   </div>
@@ -32,16 +32,48 @@ class Register extends Component {
         <option selected>Masculino</option> 
         </select>
     </div>
+    <div className="form-group col-md-4">
+      <label for="inputState">Edad</label>
+     <select>
+        <option selected>5</option>
+        <option selected>6</option> 
+        <option selected>7</option> 
+        <option selected>8</option> 
+        <option selected>9</option> 
+        <option selected>10</option> 
+        <option selected>11</option> 
+        <option selected>12</option> 
+        <option selected>13</option> 
+        <option selected>14</option> 
+        <option selected>15</option> 
+        <option selected>16</option> 
+        <option selected>17</option> 
+        <option selected>18</option> 
+        <option selected>19</option> 
+        <option selected>20</option>
+        <option selected>21</option>
+        <option selected>22</option>  
+        <option selected>23</option>
+        <option selected>24</option>   
+        <option selected>25</option>
+        <option selected>26</option>
+        <option selected>27</option>
+        <option selected>28</option>
+        <option selected>29</option>
+        <option selected>30</option>
+        </select>
+    </div>
+    <div className="form-group col-md-4">
+      <label for="inputState">Cargo</label>
+     <select>
+        <option selected>Estudiante</option>
+        <option selected>Psicólogo</option> 
+        <option selected>Coordinador</option> 
+        </select>
+    </div>
     <div className="form-group col-md-2">
       <label for="inputZip">Zip</label>
       <input type="text" className="form-control" id="inputZip"/>
-    </div>
-  </div>
-  <div className="form-group">
-    <div className="form-check">
-      <input className="form-check-input" type="checkbox" id="gridCheck">     
-      <label className="form-check-label" for="gridCheck"/> Check me out  </label>
-
     </div>
   </div>
   <button type="submit" className="btn btn-primary">Registrarse</button>
@@ -49,4 +81,4 @@ class Register extends Component {
         );
     
     }}
-    export default Register;*/
+    export default Register;

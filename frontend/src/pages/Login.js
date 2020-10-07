@@ -22,10 +22,11 @@ class Login extends Component {
     <p className="mt-5 mb-3 text-muted">© 2017-2020</p>
     </form>
   </div>
- 
+
           ); 
+        }
     }
-}
+
 
  
 export default Login;
