@@ -1,10 +1,6 @@
 import React from 'react';
-import Login from './Login';
-import Register from './Register';
-
 import Bienvenida from './Bienvenida';
-
-
+import Másinformacion from './Másinformacion';
 
 
 function Home () {
@@ -15,8 +11,8 @@ function Home () {
   
    
     <Bienvenida/>
-    
-   
+   <Másinformacion/>
+  
     </>
   );
 }

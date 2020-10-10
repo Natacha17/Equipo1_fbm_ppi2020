@@ -3,10 +3,12 @@ import Register from '../pages/Register';
 import Login from '../pages/Login';
 
 
-class Register extends Component{
+class Registroeinicio extends Component{
     render(){
     return (
+        <>
   <Register/>
-
+  <Login/>
+</>
 );}
-}export default Register;
+}export default Registroeinicio;
