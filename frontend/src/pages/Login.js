@@ -6,6 +6,7 @@ class Login extends Component {
     
     render() { 
         return (
+          <>
    <div className="container align-items-center mt-5 text-center">
     <form className="form-signin text-center align-items-center col-6">
     <h1 className="h3 mb-5 font-weight-normal text-center text-primary">Inicie Sesión</h1>
@@ -23,6 +24,8 @@ class Login extends Component {
     </form>
   </div>
 
+  
+</>
           ); 
         }
     }

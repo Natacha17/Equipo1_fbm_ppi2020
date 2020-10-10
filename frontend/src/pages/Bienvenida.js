@@ -9,6 +9,7 @@ class Bienvenida extends Component {
         return (
       <>
       <h1>Bienvenido</h1>
+
 <Link to= "/siguiente"  className="btn btn-primary btn-lg active" role="button" aria-pressed="true">Siguiente</Link>
 </>
       );

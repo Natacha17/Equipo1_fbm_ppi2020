@@ -1,14 +1,18 @@
 import React from 'react';
 import Register from '../pages/Register';
 import Login from '../pages/Login';
+import { Link }  from 'react-router-dom';
 
 
-class Registroeinicio extends Component{
-    render(){
-    return (
-        <>
-  <Register/>
-  <Login/>
+const Registroeinicio = (props) => {
+
+        return (
+    <>
+ <Login/>
+ <Register/>
+
 </>
-);}
-}export default Registroeinicio;
+      );
+      
+    }
+    export default Registroeinicio;

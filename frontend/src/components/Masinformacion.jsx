@@ -8,19 +8,17 @@ const Masinformacion = (props) => {
     <>
    
      <div classNameName="dropdown-menu">
-  <a classNameName="dropdown-item" href="#">Amor propio</a>
+       <ul>
+ <ol> <Link to= "/click" classNameName="dropdown-item" href="#">Amor propio</Link></ol>
 
-  <Link classNameName="dropdown-item disabled" href="#" tabindex="-1" aria-disabled="true">Disabled link</Link>
+ <ol><Link to="/click2"  classNameName="dropdown-item disabled" href="#" tabindex="-1" aria-disabled="true">Depresión</Link></ol>
   
-  <Link classNameName="dropdown-item" href="#">Another link</Link>
+ <ol><Link to="/click3" classNameName="dropdown-item" href="#">Acoso por internet</Link></ol>
+ <ol><Link to= "/click4"classNameName="dropdown-item" href="#">Trastornos de alimentación</Link></ol>
+  </ul>
 
   </div>
 
-<div class="dropdown-menu">
-  <a class="dropdown-item" href="#">Regular link</a>
-  <a class="dropdown-item active" href="#">Active link</a>
-  <a class="dropdown-item" href="#">Another link</a>
-</div>
 
 </>
       );

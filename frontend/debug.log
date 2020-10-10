@@ -1,0 +1,4 @@
+[1009/192536.873:ERROR:settings.cc(430)] Settings version is not 5
+[1009/193537.137:ERROR:directory_reader_win.cc(43)] FindFirstFile: El sistema no puede encontrar la ruta especificada. (0x3)
+[1009/202825.427:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\dayanna\AppData\Local\Microsoft\Edge\User Data\Crashpad\attachments\f5d0fb3e-f943-4602-b916-8731dedc1155: El sistema no puede encontrar la ruta especificada. (0x3)
+[1009/202937.448:ERROR:directory_reader_win.cc(43)] FindFirstFile: El sistema no puede encontrar la ruta especificada. (0x3)

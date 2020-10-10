@@ -4,6 +4,8 @@ class Register extends Component {
     
     render() { 
         return (
+          <>
+          <h1>Registro</h1>
             <form>
   <div className="form-row">
     <div className="form-group col-md-6">
@@ -61,6 +63,8 @@ class Register extends Component {
         <option selected>28</option>
         <option selected>29</option>
         <option selected>30</option>
+        <option selected>31</option>
+        <option selected>32</option>
         </select>
     </div>
     <div className="form-group col-md-4">
@@ -78,6 +82,7 @@ class Register extends Component {
   </div>
   <button type="submit" className="btn btn-primary">Registrarse</button>
 </form>
+</>
         );
     
     }}
