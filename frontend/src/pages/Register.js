@@ -65,6 +65,10 @@ class Register extends Component {
         <option selected>30</option>
         <option selected>31</option>
         <option selected>32</option>
+        <option selected>33</option>
+        <option selected>34</option>
+        <option selected>35</option>
+        
         </select>
     </div>
     <div className="form-group col-md-4">
@@ -80,7 +84,7 @@ class Register extends Component {
       <input type="text" className="form-control" id="inputZip"/>
     </div>
   </div>
-  <button type="submit" className="btn btn-primary">Registrarse</button>
+  <button type="submit" className="btn btn-primary " >Registrarse</button>
 </form>
 </>
         );

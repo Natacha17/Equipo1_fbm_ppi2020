@@ -9,7 +9,7 @@ const Masinformacion = (props) => {
    
      <div classNameName="dropdown-menu">
        <ul>
- <ol> <Link to= "/click" classNameName="dropdown-item" href="#">Amor propio</Link></ol>
+ <ol> <Link to= "/click1" classNameName="dropdown-item" href="#">Amor propio</Link></ol>
 
  <ol><Link to="/click2"  classNameName="dropdown-item disabled" href="#" tabindex="-1" aria-disabled="true">Depresión</Link></ol>
   

@@ -11,7 +11,7 @@ class Amorpropio extends Component {
      perfección y en cada momento.
      Aunque eso sí, más que una acción, es un estado mental y emocional, 
      ese en el que sentirnos bien con nosotros mismos.</p>
-   
+
 </>
       );
       

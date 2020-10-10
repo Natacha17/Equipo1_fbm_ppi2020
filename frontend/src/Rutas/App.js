@@ -7,16 +7,18 @@ import Amorpropio from '../pages/Amorpropio';
 import Registremonos from '../pages/Resgistremonos';
 import Acosoporinternet  from '../pages/Acosoporinternet';
 import Trastornosdealimentación  from '../pages/Trastornosdealimentación';
+import Menú from '../pages/Menú';
 const App = () => {
     return (
         <BrowserRouter>
             <Switch>
                 <Route exact path="/" component={Home} />
-                <Route path="/click" component={Amorpropio} />
+                <Route path="/click1" component={Amorpropio} />
                 <Route path="/siguiente" component={Registremonos} />
                 <Route path="/click2" component={Depresión} />
                 <Route path="/click3" component={Acosoporinternet} />
                 <Route path="/click4" component={Trastornosdealimentación} />
+                <Route path="/iniciasesion" component={Menú} />
             </Switch>
              </BrowserRouter>
 

@@ -1,4 +1,25 @@
 
 h1{
-    background-color: palegreen;
+    background-color: springgreen;
+   color:white;
+
+   justify-content: center;
+}
+div{
+    padding-left: 100px;
+    padding-right: 30px;
+    background-color: springgreen;
+}
+
+
+ol{
+ 
+    color:violet;
+}
+.Link{
+ 
+    color:violet;
+}.submi{
+    justify-items: center;
+    justify-content: center;
 }

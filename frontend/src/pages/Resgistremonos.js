@@ -8,6 +8,7 @@ class Registremonos extends Component {
         return (
           <>
 <Registroeinicio/>
+
 </>
           ); 
         }

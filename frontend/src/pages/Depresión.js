@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Masinformacion from'../components/Masinformacion';
+
 
 class Depresión extends Component {
     
