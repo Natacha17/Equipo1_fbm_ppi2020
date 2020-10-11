@@ -5,3 +5,5 @@
 [1010/150320.386:ERROR:directory_reader_win.cc(43)] FindFirstFile: El sistema no puede encontrar la ruta especificada. (0x3)
 [1010/152023.335:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\dayanna\AppData\Local\Microsoft\Edge\User Data\Crashpad\attachments\9e2ba0dd-be73-49d0-b5b0-854eed89939d: El sistema no puede encontrar la ruta especificada. (0x3)
 [1010/155449.406:ERROR:directory_reader_win.cc(43)] FindFirstFile: El sistema no puede encontrar la ruta especificada. (0x3)
+[1011/132339.355:ERROR:directory_reader_win.cc(43)] FindFirstFile: El sistema no puede encontrar la ruta especificada. (0x3)
+[1011/165817.168:ERROR:directory_reader_win.cc(43)] FindFirstFile: El sistema no puede encontrar la ruta especificada. (0x3)

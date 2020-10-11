@@ -8,7 +8,7 @@ class Bienvenida extends Component {
     render() { 
         return (
       <>
-      <h1>Bienvenido</h1>
+      <h1>Bienvenido a Psico-Félix</h1>
 
 <Link to= "/siguiente"  className="btn btn-primary btn-lg active" role="button" aria-pressed="true">Siguiente</Link>
 </>

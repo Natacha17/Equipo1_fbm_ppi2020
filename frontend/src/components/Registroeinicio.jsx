@@ -9,8 +9,9 @@ const Registroeinicio = (props) => {
         return (
     <>
  <Login/>
+ <Link to= "/olvidar"classNameName="dropdown-item" href="#">¿Olvidaste tu contraseña?</Link>
  <Register/>
-
+ 
 </>
       );
       

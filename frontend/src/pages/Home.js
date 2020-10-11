@@ -4,6 +4,9 @@ import Másinformacion from './Másinformacion';
 //import '../imagenes/Trastornosdealimentacion.jpg';
 //import '../imagenes/Amorpropio.jpeg';
 //import Amorpropio from '../imagenes/Amorpropio.jpeg';
+import Menú from './Menú';
+import SalirdelaApp from './SalirdelaApp';
+import Flecha from './Flecha';
 
 
 function Home () {
@@ -15,7 +18,9 @@ function Home () {
   
     <Bienvenida/>
    <Másinformacion/>
-  
+  <Menú/>
+  <SalirdelaApp/>
+ <Flecha/>
     </>
   );
 }

@@ -79,12 +79,10 @@ class Register extends Component {
         <option selected>Coordinador</option> 
         </select>
     </div>
-    <div className="form-group col-md-2">
-      <label for="inputZip">Zip</label>
-      <input type="text" className="form-control" id="inputZip"/>
-    </div>
+    
   </div>
   <button type="submit" className="btn btn-primary " >Registrarse</button>
+  <p className="mt-5 mb-3 text-muted">© 2017-2020</p>
 </form>
 </>
         );
