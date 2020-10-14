@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-
+import Acosoeninternet  from '../imagenes/Acosoeninternet.png';
 
 class Acosoporinternet extends Component {
     
     render() { 
         return (
     <>
-   <h1>Acoso por internet</h1>
+   <h1>Acoso por internet</h1> 
 <p>El ciberacoso incluye el envío (repetido) de amenazas o acusaciones falsas por correo electrónico o teléfono móvil,publicarlas en sitios web, robar la identidad o datos de una persona, o espiar y monitorear el computador o el uso de internet que hace alguien. A veces las amenazas pueden alcanzar los espacios físicos.</p>
    <p>¿Cómo evitar el acoso en línea?</p>
 <ul>
@@ -16,7 +16,7 @@ class Acosoporinternet extends Component {
 </ul><ul>
 <li>No te sientas obligado/a a completar todos los campos cuando te registras en línea ni a brindar información que pueda identificarte , como fecha y lugar de nacimiento en los campos obligatorios.</li>
 
-</ul>
+</ul><img src={Acosoeninternet}/>
 </>
       );
       

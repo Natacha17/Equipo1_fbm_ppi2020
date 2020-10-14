@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-//import Tastornos  from '../imagenes/Trastornos.jpg';
-//import '../imagenes/Trastornos.jpg';
+import Trastornos  from '../imagenes/Trastornos.jpg';
+
 
 class Trastornosdealimentación extends Component {
     
@@ -24,7 +24,7 @@ class Trastornosdealimentación extends Component {
 
 <p>¿Quién está en riesgo de trastornos alimenticios?</p>
 <p>Cualquiera puede desarrollar un trastorno alimenticio, pero son más comunes en mujeres. Estos trastornos aparecen con frecuencia durante la adolescencia o la edad adulta, pero también se pueden desarrollar durante la infancia o más adelante en la vida.</p>
-
+<img src={Trastornos}/>
 
 </div>
 </>

@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-
+import Depresion  from '../imagenes/Depresion.jpg';
 
 class Depresión extends Component {
     
     render() { 
         return (
     <>
-   <h1>Depresión</h1>
+   <h1>Depresión</h1> <img src={Depresion}/>
 <p>Es más que sentirse triste durante unos días. hacen que te sea difícil tener una vida normal y desarrollar tus actividades habituales. 
     También puedes tener problemas para concentrarte y no tener motivación o energía.</p>
     <p>La depresión es un trastorno emocional que causa un sentimiento de tristeza constante y una pérdida de interés en realizar diferentes actividades. También denominada «trastorno depresivo mayor» o «depresión clínica», afecta los sentimientos, los pensamientos y el comportamiento de una persona, y puede causar una variedad de problemas físicos y emocionales. Es posible que tengas dificultades para realizar las actividades cotidianas y que, a veces, sientas que no vale la pena vivir.</p>

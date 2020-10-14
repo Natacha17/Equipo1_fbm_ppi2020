@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import '../Estilos/Login.css';
-
+import {Link} from 'react-router-dom'; 
 
 class Login extends Component {
     
@@ -18,8 +18,9 @@ class Login extends Component {
     <label>
       <input type="checkbox" value="remember-me"/> Remember me</label>
     </div>
+    <Link to="/menu">
     <button className="btn btn-lg btn-primary btn-flex mb-3 col-6" type="submit">Iniciar Sesión</button>
-    <button onClick={()=>this.menú} className="btn btn-lg btn-primary btn-flex mb-3 col-6" type="submit">Iniciar Sesión</button>
+    </Link>
     
     </form>
   </div>

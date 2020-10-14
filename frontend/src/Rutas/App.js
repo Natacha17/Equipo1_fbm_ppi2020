@@ -24,7 +24,9 @@ const App = () => {
                 <Route path="/olvidar" component={Olvidarcontraseña} />
                 <Route path="/abandono" component={Registremonos} />
                 <Route path="/regresar" component={Menú} />
-                <Route path="/menú" component={Menú} />
+                <Route path="/menu" component={Menú} />
+                <Route path="/entrar" component={Menú} />
+                <Route path="/recuperar" component={Menú} />
             </Switch>
              </BrowserRouter>
 
