@@ -18,10 +18,7 @@ class Register extends Component {
     </div>
   </div>
 
- <div className="form-group">
-    <label for="inputAddress2">Address 2</label>
-    <input type="text" className="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor"/>
-  </div>
+ 
   <div className="form-row">
     <div className="form-group col-md-6">
       <label for="inputCity">City</label>
@@ -68,7 +65,17 @@ class Register extends Component {
         <option selected>33</option>
         <option selected>34</option>
         <option selected>35</option>
-        
+        <option selected>36</option>
+        <option selected>37</option>
+        <option selected>38</option>
+        <option selected>39</option>
+        <option selected>40</option>
+        <option selected>41</option>
+        <option selected>42</option>
+        <option selected>43</option>
+        <option selected>44</option>
+        <option selected>45</option>
+
         </select>
     </div>
     <div className="form-group col-md-4">

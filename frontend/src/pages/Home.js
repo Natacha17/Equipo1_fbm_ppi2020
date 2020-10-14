@@ -7,7 +7,7 @@ import Másinformacion from './Másinformacion';
 import Menú from './Menú';
 import SalirdelaApp from './SalirdelaApp';
 import Flecha from './Flecha';
-
+import Masinformacionpsicologo from './Masinformacionpsicologo';
 
 function Home () {
   return (
@@ -21,6 +21,7 @@ function Home () {
   <Menú/>
   <SalirdelaApp/>
  <Flecha/>
+ <Masinformacionpsicologo/>
     </>
   );
 }
