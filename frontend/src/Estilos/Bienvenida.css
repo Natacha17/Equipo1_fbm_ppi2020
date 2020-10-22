@@ -1,5 +1,5 @@
 h1{
-    background-color: springgreen;
+  
    color:white;
 text-align: center;
   padding: 20px;
@@ -7,7 +7,7 @@ text-align: center;
 div{
     padding-left: 100px;
     padding-right: 30px;
-    background-color: springgreen;
+   
 }
 
 
@@ -21,4 +21,9 @@ ol{
 }.submi{
     justify-items: center;
     justify-content: center;
-}
+}.form-signin{
+    text-align: right;
+    justify-items: right;
+   
+   }
+    

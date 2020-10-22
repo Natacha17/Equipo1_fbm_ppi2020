@@ -7,9 +7,10 @@ class Login extends Component {
     render() {
         return (
           <>
+         
    <div className="container align-items-center mt-5 text-center">
     <form className="form-signin text-center align-items-center col-6">
-    <h1 className="h3 mb-5 font-weight-normal text-center ">Inicie Sesión</h1>
+    <h1 className=" text-center ">Inicie Sesión</h1>
     <label for="inputEmail" className="sr-only mb-3">Documentode identidad</label>
     <input type="email" id="inputEmail" className="form-control mb-3" placeholder="Email " required="" autofocus=""/>
     <label for="inputPassword" className="sr-only">Contraseña</label>
@@ -17,6 +18,9 @@ class Login extends Component {
     <div className="checkbox mb-3">
     <label>
       <input type="checkbox" value="remember-me"/> Remember me</label>
+<div>
+      <Link to= "/olvidar"classNameName="dropdown-item " href="#">¿Olvidaste tu contraseña?</Link>
+      </div>
     </div>
     <Link to="/menu">
     <button className="btn btn-lg btn-primary btn-flex mb-3 col-6" type="submit">Iniciar Sesión</button>

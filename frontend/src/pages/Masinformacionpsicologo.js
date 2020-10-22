@@ -6,7 +6,7 @@ class Masinformacionpsicologo extends Component {
     render() { 
         return (
     <>
-   <h1>Más informaciòn</h1>
+   <h1>Más información</h1>
 <p>Se realizó una encuesta que fue dirigida a 20 personas para tomar 
 más información y datos específicos, se preguntó: ¿Se te dificulta 
 hablar de tus problemas con otra persona? Y ¿Si le sería más fácil 

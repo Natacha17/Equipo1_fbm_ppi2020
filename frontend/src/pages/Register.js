@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom'; 
+
+
 class Register extends Component {
     
     render() { 
@@ -20,10 +22,7 @@ class Register extends Component {
 
  
   <div className="form-row">
-    <div className="form-group col-md-6">
-      <label for="inputCity">City</label>
-      <input type="text" className="form-control" id="inputCity"/>
-    </div>
+    
     <div className="form-group col-md-4">
       <label for="inputState">Género</label>
      <select>
@@ -88,7 +87,7 @@ class Register extends Component {
     </div>
     
   </div>
-  <Link to ="/entrar"><button type="submit" className="btn btn-primary " >Registrarse</button></Link>
+  <Link to ="/entrar"><button type="submit" className="btn btn-lg btn-primary btn-flex mb-3 col-6" >Registrarse</button></Link>
   <p className="mt-5 mb-3 text-muted">© 2017-2020</p>
 </form>
 </>

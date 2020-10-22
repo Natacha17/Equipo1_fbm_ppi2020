@@ -9,7 +9,7 @@ import Acosoporinternet  from '../pages/Acosoporinternet';
 import Trastornosdealimentación  from '../pages/Trastornosdealimentación';
 import Menú from '../pages/Menú';
 import Olvidarcontraseña from '../pages/Olvidarcontraseña';
-import Bienvenida from '../pages/Bienvenida';
+import Másinformacion from '../pages/Másinformacion';
 
 const App = () => {
     return (
@@ -27,6 +27,7 @@ const App = () => {
                 <Route path="/menu" component={Menú} />
                 <Route path="/entrar" component={Menú} />
                 <Route path="/recuperar" component={Menú} />
+                <Route path="/masinfo" component={Másinformacion} />
             </Switch>
              </BrowserRouter>
 
