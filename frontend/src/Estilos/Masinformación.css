@@ -1,4 +1,33 @@
-.Link{
- 
-    color:violet;
+
+Link{
+
+    color:black;
+    
+}
+.botonamor{
+color:black;
+
+}
+
+.amorprop{
+    background-color:#7FCDE4  ;
+    padding: 20px;
+color:black;
+
+
+}
+.depresion{
+    background-color: #C39DF3 ;
+    padding: 20px;
+
+}
+.acosoint{
+    background-color:    #F0AB71   ;
+    padding: 20px;
+
+}
+.transtornoali{
+    background-color:#68EDAA  ;
+    padding: 20px;
+
 }

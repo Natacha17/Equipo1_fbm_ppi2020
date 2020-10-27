@@ -1,10 +1,9 @@
 import React from 'react';
 import Bienvenida from './Bienvenida';
-import Másinformacion from './Másinformacion';
 import SalirdelaApp from './SalirdelaApp';
-import Flecha from './Flecha';
 import Masinformacionpsicologo from './Masinformacionpsicologo';
-import Tiposdeconflicto from './Tiposdeconflicto';
+
+
 
 function Home () {
   return (
@@ -15,12 +14,10 @@ function Home () {
   
   
     <Bienvenida/>
-   <Másinformacion/>
 
   <SalirdelaApp/>
- <Flecha/>
- <Masinformacionpsicologo/>
- <Tiposdeconflicto/>
+  <Masinformacionpsicologo/>
+ 
     </>
   );
 }

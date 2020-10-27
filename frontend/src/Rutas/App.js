@@ -10,6 +10,9 @@ import Trastornosdealimentación  from '../pages/Trastornosdealimentación';
 import Menú from '../pages/Menú';
 import Olvidarcontraseña from '../pages/Olvidarcontraseña';
 import Másinformacion from '../pages/Másinformacion';
+import Tiposdeconflicto from '../pages/Tiposdeconflicto';
+import Clasificacion from '../pages/Clasificacion';
+import QuienesSomos from '../pages/QuienesSomos';
 
 const App = () => {
     return (
@@ -28,6 +31,9 @@ const App = () => {
                 <Route path="/entrar" component={Menú} />
                 <Route path="/recuperar" component={Menú} />
                 <Route path="/masinfo" component={Másinformacion} />
+                <Route path="/chat" component={Tiposdeconflicto} />
+                <Route path="/clasifica" component={Clasificacion} />
+                <Route path="/quienes" component={QuienesSomos} />
             </Switch>
              </BrowserRouter>
 

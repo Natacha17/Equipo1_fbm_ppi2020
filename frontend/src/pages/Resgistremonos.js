@@ -2,6 +2,8 @@
 import React, { Component } from 'react';
 import Registroeinicio from '../components/Registroeinicio';
 import '../Estilos/Login.css';
+import '../Estilos/Universal.css';
+
 class Registremonos extends Component {
     
     render() { 
