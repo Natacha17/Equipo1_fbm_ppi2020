@@ -5,9 +5,12 @@ import Register from '../pages/Register';
 const Registroeinicio = (props) => {
         return (
     <>
+    <div>
     <Login/>
+    </div>
+    <div>
 <Register/>
-
+</div>
 </>
       );
       

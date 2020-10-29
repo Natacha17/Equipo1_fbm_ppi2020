@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import '../Estilos/Login.css';
 import {Link} from 'react-router-dom'; 
+import '../Estilos/Universal.css';
 
 class Login extends Component {
     
@@ -8,7 +9,7 @@ class Login extends Component {
         return (
           <>
          
-   <div className="container align-items-center mt-5 text-center">
+   <div className="iniciosesion">
     <form className="form-signin text-center align-items-center col-6">
     <h1 className=" text-center ">Inicie Sesión</h1>
     <label for="inputEmail" className="sr-only mb-3">Documentode identidad</label>

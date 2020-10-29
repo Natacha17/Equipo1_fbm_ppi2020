@@ -87,7 +87,7 @@ class Register extends Component {
     </div>
     
   </div>
-  <Link to ="/entrar"><button type="submit" className="btn btn-lg btn-primary btn-flex mb-3 col-6" >Registrarse</button></Link>
+  <Link to ="/entremos"><button type="submit" className="btn btn-lg btn-primary btn-flex mb-3 col-6" >Registrarse</button></Link>
   <p className="mt-5 mb-3 text-muted">© 2017-2020</p>
 </form>
 </>

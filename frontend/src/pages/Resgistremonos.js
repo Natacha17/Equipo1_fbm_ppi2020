@@ -10,6 +10,7 @@ class Registremonos extends Component {
         return (
           <>
           <h1>Psico-Félix</h1>
+          
 <Registroeinicio/>
 
 </>

@@ -27,8 +27,7 @@ const Menuenbarra = (props) => {
       <li class="nav-item active">
         <button
           class="btn btn-outline-primary my-2 my-sm-0"
-          type="submit"  >
-          Menú </button>
+          type="submit"  >        Menú </button>
       </li>
       <ul class="nav-item">
        <Link to="/chat"> <button
@@ -38,11 +37,8 @@ const Menuenbarra = (props) => {
         </button></Link>
       </ul>
       <ul class="nav-item">
-        <button
-          class="btn btn-outline-primary my-2 my-sm-0"
-          type="submit"
-        >
-          Acerca de  </button>
+      <Link to="/acercad">  <button  class="btn btn-outline-primary my-2 my-sm-0"    type="submit"    >
+          Acerca de  </button></Link>
       </ul>
       <ul class="nav-item dropdown text-dark">
        <Link to="/quienes"> <button

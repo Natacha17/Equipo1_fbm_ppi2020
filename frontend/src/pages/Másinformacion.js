@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Masinformacion from'../components/Masinformacion';
 import '../Estilos/Masinformación.css';
+import Menuenbarra from'../components/Menuenbarra';
 
 class Másinformacion extends Component {
     
@@ -8,6 +9,7 @@ class Másinformacion extends Component {
         return (
     <>
    <h1>Más información</h1>
+
 
    <Masinformacion/>
 </>

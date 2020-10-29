@@ -1,7 +1,6 @@
 import React from 'react';
 import { Route, BrowserRouter, Switch } from 'react-router-dom';
 import Home from '../pages/Home';
-import Login from '../pages/Login';
 import Depresión from '../pages/Depresión';
 import Amorpropio from '../pages/Amorpropio';
 import Registremonos from '../pages/Resgistremonos';
@@ -13,6 +12,7 @@ import Másinformacion from '../pages/Másinformacion';
 import Tiposdeconflicto from '../pages/Tiposdeconflicto';
 import Clasificacion from '../pages/Clasificacion';
 import QuienesSomos from '../pages/QuienesSomos';
+import Acercade from '../pages/Acercade';
 
 const App = () => {
     return (
@@ -28,12 +28,13 @@ const App = () => {
                 <Route path="/abandono" component={Registremonos} />
                 <Route path="/regresar" component={Menú} />
                 <Route path="/menu" component={Menú} />
-                <Route path="/entrar" component={Menú} />
+                <Route path="/entremos" component={Menú} />
                 <Route path="/recuperar" component={Menú} />
                 <Route path="/masinfo" component={Másinformacion} />
                 <Route path="/chat" component={Tiposdeconflicto} />
                 <Route path="/clasifica" component={Clasificacion} />
                 <Route path="/quienes" component={QuienesSomos} />
+                <Route path="/acercad" component={Acercade} />
             </Switch>
              </BrowserRouter>
 

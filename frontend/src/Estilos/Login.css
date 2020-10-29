@@ -1,5 +1,5 @@
 form{
-
+    right: 500px;
 text-align: center;
 } 
 .botonlogin{
@@ -10,5 +10,24 @@ text-align: center;
     background-color:black;
 } h1{
     text-align: center;
+    
+}.iniciosesion{
+    right: -500px;
+    position: relative;
+    
+}.cuadrotexto{
+    right: -700px;
+    position: relative;
+    top:2px;
+    padding: 6px;
+   
+    
+}.contraseñatex{
+    right: -700px;
+    position: relative;
+    top:2px;
+    padding: 6px;
+    position: relative;
+   
     
 }
