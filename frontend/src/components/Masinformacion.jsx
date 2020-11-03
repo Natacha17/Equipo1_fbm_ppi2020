@@ -7,8 +7,10 @@ const Masinformacion = (props) => {
 
         return (
     <>
+    <div>
    <Menuenbarra/>
-     <div classNameName="dropdown-menu">
+   </div>
+     <div classNameName="masinformacion">
        <ul>
  <h5><ol className="amorprop"> <Link to= "/click1" classNameName="botonamor" href="#">Amor propio</Link></ol>
 

@@ -10,7 +10,7 @@ const Menuenbarra = (props) => {
 
     <div className="App">
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand text-primary" href="index.html">  Psico-Félix </a>
+  <a class="navbar-brand text-primary" href="#">  Psico-Félix </a>
   <button
     class="navbar-toggler"
     type="button"
