@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import '../Estilos/Bienvenida.css';
 import { Link }  from 'react-router-dom';
 import '../Estilos/Universal.css';
+import '../Estilos/Bienvenida.css';
 
 class Bienvenida extends Component {
     

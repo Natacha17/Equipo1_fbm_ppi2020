@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import Salir from '../components/Salir';
 import '../Estilos/Salir.css';
+import '../Estilos/Universal.css';
+
 class SalirdelaApp extends Component {
     
     render() { 

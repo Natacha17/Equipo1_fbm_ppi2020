@@ -3,6 +3,8 @@ import '../Estilos/Universal.css';
 import '../Estilos/Menu.css';
 import  Menuenbarra from '../components/Menuenbarra';
 import  Menu from '../components/Menu';
+import { Link }  from 'react-router-dom';
+import usuario  from '../imagenes/usuario.png';
 
 class Menú extends Component {
     
@@ -12,7 +14,7 @@ class Menú extends Component {
           <h1>Menú</h1>
 
 <Menuenbarra/>
-
+<Link to='/salirapp' id="miboton" href="#"><img alt="Boton"  src={usuario}/></Link>
 <Menu/>
   </>
          );

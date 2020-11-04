@@ -4,7 +4,12 @@ button{
 }
 .btn{
     justify-content: right;
-}Link{
+}
+Link{
     justify-content: right;
 
+}
+.regresar{
+   padding:500px ;
+   margin: auto;
 }

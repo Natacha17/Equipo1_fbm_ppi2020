@@ -13,6 +13,7 @@ import Tiposdeconflicto from '../pages/Tiposdeconflicto';
 import Clasificacion from '../pages/Clasificacion';
 import QuienesSomos from '../pages/QuienesSomos';
 import Acercade from '../pages/Acercade';
+import SalirdelaApp from '../pages/SalirdelaApp';
 
 const App = () => {
     return (
@@ -35,6 +36,7 @@ const App = () => {
                 <Route path="/clasifica" component={Clasificacion} />
                 <Route path="/quienes" component={QuienesSomos} />
                 <Route path="/acercad" component={Acercade} />
+                <Route path="/salirapp" component={SalirdelaApp} />
             </Switch>
              </BrowserRouter>
 
