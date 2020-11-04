@@ -12,6 +12,7 @@ class Másinformacion extends Component {
 
 
    <Masinformacion/>
+   
 </>
       );
       

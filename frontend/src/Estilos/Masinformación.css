@@ -1,6 +1,7 @@
 
-.masinformacion{
+.informate{
     position:relative;
+   padding: 30px;
     
 }
 Link{
@@ -34,4 +35,10 @@ color:black;
     background-color:#68EDAA  ;
     padding: 20px;
 
-}
+}h1{
+  
+    color:black;
+ text-align: center;
+   padding: 20px;
+  
+ }

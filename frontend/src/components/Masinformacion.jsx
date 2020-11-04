@@ -2,6 +2,7 @@ import React from 'react';
 import { Link }  from 'react-router-dom';
 import '../Estilos/Masinformación.css';
 import Menuenbarra from './Menuenbarra';
+import '../Estilos/Universal.css';
 
 const Masinformacion = (props) => {
 
@@ -10,6 +11,8 @@ const Masinformacion = (props) => {
     <div>
    <Menuenbarra/>
    </div>
+
+   <section className='informate'>
      <div classNameName="masinformacion">
        <ul>
  <h5><ol className="amorprop"> <Link to= "/click1" classNameName="botonamor" href="#">Amor propio</Link></ol>
@@ -21,7 +24,7 @@ const Masinformacion = (props) => {
   </ul>
   
   </div>
-
+  </section>
 
 </>
       );

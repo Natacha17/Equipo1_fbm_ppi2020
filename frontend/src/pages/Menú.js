@@ -12,9 +12,9 @@ class Menú extends Component {
         return ( 
           <>
           <h1>Menú</h1>
-
+         
 <Menuenbarra/>
-<Link to='/salirapp' id="miboton" href="#"><img alt="Boton"  src={usuario}/></Link>
+<section className='usuario'><Link to='/salirapp' id="miboton" href="#"><img alt="Boton"  src={usuario}/></Link></section>
 <Menu/>
   </>
          );

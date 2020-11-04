@@ -20,7 +20,7 @@ class Login extends Component {
     <label>
       <input type="checkbox" value="remember-me"/> Remember me</label>
 <div>
-      <Link to= "/olvidar"classNameName="dropdown-item " href="#">¿Olvidaste tu contraseña?</Link>
+      <Link to= "/olvidaste"classNameName="dropdown-item " href="#">¿Olvidaste tu contraseña?</Link>
       </div>
     </div>
     <Link to="/menu">

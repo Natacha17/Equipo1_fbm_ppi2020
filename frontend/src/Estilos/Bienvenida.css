@@ -1,8 +1,9 @@
-h1{
+.h1{
   
    color:black;
 text-align: center;
   padding: 20px;
+  
 }
 div{
     padding-left: 100px;

@@ -25,7 +25,7 @@ const App = () => {
                 <Route path="/click2" component={Depresión} />
                 <Route path="/click3" component={Acosoporinternet} />
                 <Route path="/click4" component={Trastornosdealimentación} />
-                <Route path="/olvidar" component={Olvidarcontraseña} />
+                <Route path="/olvidaste" component={Olvidarcontraseña} />
                 <Route path="/abandono" component={Registremonos} />
                 <Route path="/regresar" component={Menú} />
                 <Route path="/menu" component={Menú} />
