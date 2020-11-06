@@ -4,92 +4,85 @@ import { Link }  from 'react-router-dom';
 
 const Menuenbarra = (props) => {
 
-        return (
+     return (
     <>
 
 
-    <div className="App">
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand text-primary" href="#">  Psico-Félix </a>
+    <div classNameName="App">
+<nav className="navbar navbar-expand-lg navbar-light bg-light">
+  <a className="navbar-brand text-primary" href="#">  Psico-Félix </a>
   <button
-    class="navbar-toggler"
+    className="navbar-toggler"
     type="button"
     data-toggle="collapse"
     data-target="#navbarSupportedContent"
     aria-controls="navbarSupportedContent"
     aria-expanded="false"
     aria-label="Toggle navigation" >
-    <span class="navbar-toggler-icon"></span>
+    <span className="navbar-toggler-icon"></span>
   </button>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <button
-          class="btn btn-outline-primary my-2 my-sm-0"
-          type="submit"  >        Menú </button>
+  <div className="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul className="navbar-nav mr-auto">
+      <li className="nav-item active">
+        <button   className="btn btn-outline-primary my-2 my-sm-0" type="submit" >    Menú </button>
       </li>
-      <ul class="nav-item">
-       <Link to="/chat"> <button
-          class="btn btn-outline-primary my-2 my-sm-0"
-          type="submit"  >
-          Chat
+      <ul className="nav-item">
+       <Link to="/chat"> <button className="btn btn-outline-primary my-2 my-sm-0"  type="submit"  >   Chat
         </button></Link>
       </ul>
-      <ul class="nav-item">
-      <Link to="/acercad">  <button  class="btn btn-outline-primary my-2 my-sm-0"    type="submit"    >
+      <ul className="nav-item">
+      <Link to="/acercad">  <button  className="btn btn-outline-primary my-2 my-sm-0"    type="submit"    >
           Acerca de  </button></Link>
       </ul>
-      <ul class="nav-item dropdown text-dark">
+      <ul className="nav-item dropdown text-dark">
        <Link to="/quienes"> <button
-          class="btn btn-outline-primary my-2 my-sm-0"
+          className="btn btn-outline-primary my-2 my-sm-0"
           type="submit"
         >
           ¿Quienes somos?
         </button></Link>
 
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+        <div className="dropdown-menu" aria-labelledby="navbarDropdown">
           <button
-            class="btn btn-outline-primary my-2 my-sm-0"
+            className="btn btn-outline-primary my-2 my-sm-0"
             type="submit"
           >
             Karen Gordon
           </button>
           <button
-            class="btn btn-outline-primary my-2 my-sm-0"
+            className="btn btn-outline-primary my-2 my-sm-0"
             type="submit"
           >
             Dayanna Martínez
           </button>
           <button
-            class="btn btn-outline-primary my-2 my-sm-0"
+            className="btn btn-outline-primary my-2 my-sm-0"
             type="submit"
           >
             Natacha Fornier
           </button>
           <button
-            class="btn btn-outline-primary my-2 my-sm-0"
-            type="submit"
-          >
+            className="btn btn-outline-primary my-2 my-sm-0"
+            type="submit" >
             Santiago Ríos
           </button>
         </div>
       </ul>
-      <ul class="nav-item">
+      <ul className="nav-item">
       <Link to="/masinfo">  <button
-          class="btn btn-outline-primary my-2 my-sm-0"
+          className="btn btn-outline-primary my-2 my-sm-0"
           type="submit" >Más información</button></Link>
       </ul>
     </ul>
-    <form class="form-inline my-2 my-lg-0">
+    <form className="form-inline my-2 my-lg-0">
       <input
-        class="form-control mr-sm-2"
+        className="form-control mr-sm-2"
         type="search"
         placeholder="¿Qué Buscas?"
         aria-label="Search"
       />
-      <button
-        class="btn btn-outline-primary my-2 my-sm-0"
+  <button  classNameName="btn btn-outline-primary my-2 my-sm-0"
         type="submit"> Buscar</button>
     </form>
   </div>

@@ -1,7 +1,7 @@
 import React from 'react';
 import Bienvenida from './Bienvenida';
 import Masinformacionpsicologo from './Masinformacionpsicologo';
-import '../Estilos/Universal.css';
+
 
 
 

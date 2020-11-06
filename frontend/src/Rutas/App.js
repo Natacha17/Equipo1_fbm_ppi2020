@@ -14,6 +14,7 @@ import Clasificacion from '../pages/Clasificacion';
 import QuienesSomos from '../pages/QuienesSomos';
 import Acercade from '../pages/Acercade';
 import SalirdelaApp from '../pages/SalirdelaApp';
+import MenúEnsayo from '../components/MenúEnsayo';
 
 const App = () => {
     return (
@@ -37,6 +38,8 @@ const App = () => {
                 <Route path="/quienes" component={QuienesSomos} />
                 <Route path="/acercad" component={Acercade} />
                 <Route path="/salirapp" component={SalirdelaApp} />
+
+                <Route path="/ensayo" component={MenúEnsayo} />
             </Switch>
              </BrowserRouter>
 

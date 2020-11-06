@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import '../Estilos/Login.css';
 import {Link} from 'react-router-dom'; 
-import '../Estilos/Universal.css';
+
 
 class Login extends Component {
     

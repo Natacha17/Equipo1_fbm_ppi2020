@@ -2,7 +2,7 @@ import React from 'react';
 import { Link }  from 'react-router-dom';
 import '../Estilos/Masinformación.css';
 import Menuenbarra from './Menuenbarra';
-import '../Estilos/Universal.css';
+
 
 const Masinformacion = (props) => {
 

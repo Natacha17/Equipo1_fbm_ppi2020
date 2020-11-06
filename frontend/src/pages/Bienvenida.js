@@ -1,20 +1,18 @@
 import React, { Component } from 'react';
 import { Link }  from 'react-router-dom';
-import '../Estilos/Universal.css';
 import '../Estilos/Bienvenida.css';
-import logopsico from '../imagenes/logopsico.jpeg';
-import logoproyecto from '../imagenes/logoproyecto.png';
+import bienvenido from '../imagenes/bienvenido.png';
 
 class Bienvenida extends Component {
     
     render() { 
         return (
       <>
-     <h1>Bienvenido a Psico-Félix</h1>
-      <section className='logoproyecto'><img src={logoproyecto}/></section>
-      <section className='logo'><img src={logopsico}/></section>
+   <h1 className='letra' >Bienvenido  </h1>
+   <h2 className='letrah2'>Psico-Félix</h2> 
+      <section ><img className='logo'src={bienvenido}/></section>
 <Link to= "/siguiente"  className="btn btn-warning btn-lg active" role="button" aria-pressed="true">Siguiente</Link>
-                                        </>
+                                </>
       );
       
     }}

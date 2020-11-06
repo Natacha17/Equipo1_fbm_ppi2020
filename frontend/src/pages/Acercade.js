@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../Estilos/Universal.css';
+
 import '../Estilos/Acercade.css';
 
 class Acercade extends Component {

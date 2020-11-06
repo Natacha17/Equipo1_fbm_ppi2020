@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Trastornos  from '../imagenes/Trastornos.jpg';
 
-
 class Trastornosdealimentación extends Component {
     
     render() { 

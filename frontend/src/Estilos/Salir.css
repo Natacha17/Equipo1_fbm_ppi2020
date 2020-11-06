@@ -1,7 +1,4 @@
-button{
-    justify-content: right;
 
-}
 .btn{
     justify-content: right;
 }
@@ -9,7 +6,12 @@ Link{
     justify-content: right;
 
 }
-.regresar{
-   padding:500px ;
+.regresa{
+    
    margin: auto;
+   position: relative;
 }
+.abandonar{
+    position: relative;
+    right: -500px;
+} 

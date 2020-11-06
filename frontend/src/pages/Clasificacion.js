@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import {Link} from 'react-router-dom'; 
 import Menuenbarra from "../components/Menuenbarra";
 import '../Estilos/Clasificacion.css';
-import '../Estilos/Universal.css';
 
 
 class Clasificacion extends Component {
