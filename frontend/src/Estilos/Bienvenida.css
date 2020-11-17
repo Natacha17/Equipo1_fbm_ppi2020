@@ -46,19 +46,19 @@ padding: 20px;
 border-radius: black;
 border:black;
 }*/
-.btn{
+.siguiente{
     justify-items: center;
     justify-content: center;
 position: relative;
-right: -17%;
+right: -80%;
 }
 .logo{
     padding:0%;
     justify-content: center;
     justify-items: center;
-    right:-380px ;
-    position: relative;
+/*    right:-7000px ;*/
     width: 500px;
-    
+    position: relative;
+    left:480px ;
 }
 

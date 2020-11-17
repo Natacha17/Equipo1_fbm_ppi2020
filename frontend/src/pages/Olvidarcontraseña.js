@@ -1,16 +1,18 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom'; 
-
+import logopsico  from '../imagenes/logopsico.jpeg';
+import '../Estilos/olvidarcontraseña.css';
 
 class Olvidarcontraseña extends Component {
     
     render() {
         return (
          <>
-       
+      
   <form>
   <div class="form-group">
   <h1 >Recuperar cuenta</h1>
+  <section className='logo'><img src={logopsico}/></section>
     <label for="exampleInputEmail1">Documento de identidad</label>
     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>
   </div> <div class="form-group">

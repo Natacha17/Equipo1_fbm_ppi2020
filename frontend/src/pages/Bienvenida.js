@@ -11,7 +11,7 @@ class Bienvenida extends Component {
    <h1 className='letra' >Bienvenido  </h1>
    <h2 className='letrah2'>Psico-Félix</h2> 
       <section ><img className='logo'src={bienvenido}/></section>
-<Link to= "/siguiente"  className="btn btn-warning btn-lg active" role="button" aria-pressed="true">Siguiente</Link>
+<Link to= "/siguiente"  className="siguiente btn-warning btn-lg active" role="button" aria-pressed="true">Siguiente</Link>
                                 </>
       );
       

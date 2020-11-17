@@ -30,4 +30,7 @@ text-align: center;
     position: relative;
    
     
+}.login{
+position: relative;
+right: -7px;
 }

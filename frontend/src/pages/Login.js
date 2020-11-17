@@ -24,7 +24,7 @@ class Login extends Component {
       </div>
     </div>
     <Link to="/menu">
-    <button className="btn btn-lg btn-primary btn-flex mb-3 col-6" type="submit">Iniciar Sesión</button>
+    <button className="login btn-lg btn-primary btn-flex mb-3 col-6" type="submit">Iniciar Sesión</button>
     </Link>
     
     </form>
