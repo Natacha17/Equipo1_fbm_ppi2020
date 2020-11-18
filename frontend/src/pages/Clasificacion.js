@@ -23,8 +23,7 @@ aria-label="Search"/>
 </form>
 
 <h2> ¿Cómo clasificas tu conflicto?</h2>
- <script src="//code.jivosite.com/widget/LaVTcwZcIP" async>
- <button class="grave" type="submit">
+ <button class="leve" type="submit">
 Leve
 </button>
 </script>

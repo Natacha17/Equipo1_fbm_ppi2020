@@ -11,7 +11,7 @@ class Chat extends Component {
 
  <h2 className='chat' > Chat</h2>
 
- <script src="//code.jivosite.com/widget/LaVTcwZcIP" async></script>
+ 
       );
       
     }}
