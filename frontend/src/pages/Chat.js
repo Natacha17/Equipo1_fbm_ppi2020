@@ -3,7 +3,7 @@ import script from '//code.jivosite.com/widget/LaVTcwZcIP'
 import '../Estilos/Acercade.css';
 
 class Chat extends Component {
-    <script src="//code.jivosite.com/widget/LaVTcwZcIP" async></script>
+    
     render() { 
         return (
     <>
