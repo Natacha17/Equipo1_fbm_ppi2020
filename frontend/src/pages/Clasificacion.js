@@ -23,9 +23,7 @@ aria-label="Search"/>
 </form>
 
 <h2> ¿Cómo clasificas tu conflicto?</h2>
-<button class="leve" type="submit">
-Leve
-</button>
+<Link to= "/leve"  className="leve bton-warning btn-lg active" role="button" aria-pressed="true">Leve</Link>
 <button class="grave" type="submit">
 Grave
 </button>
