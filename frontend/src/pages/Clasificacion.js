@@ -23,6 +23,7 @@ aria-label="Search"/>
 </form>
 
 <h2> ¿Cómo clasificas tu conflicto?</h2>
+ <section ><img className='logo'src={Chat}/></section>
 <Link to= "/leve"  className="leve bton-warning btn-lg active" role="button" aria-pressed="true">Leve</Link>
 <button class="grave" type="submit">
 Grave
