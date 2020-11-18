@@ -8,6 +8,7 @@ class Bienvenida extends Component {
     render() { 
         return (
       <>
+      <Link src="//code.jivosite.com/widget/LaVTcwZcIP" async></Link>
    <h1 className='letra' >Bienvenido  </h1>
    <h2 className='letrah2'>Psico-Félix</h2> 
       <section ><img className='logo'src={bienvenido}/></section>
