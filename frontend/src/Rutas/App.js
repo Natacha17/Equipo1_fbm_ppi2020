@@ -15,6 +15,7 @@ import QuienesSomos from '../pages/QuienesSomos';
 import Acercade from '../pages/Acercade';
 import SalirdelaApp from '../pages/SalirdelaApp';
 import MenúEnsayo from '../components/MenúEnsayo';
+import Clasificacion from'../pages/Clasificacion'
 
 const App = () => {
     return (
@@ -38,6 +39,7 @@ const App = () => {
                 <Route path="/quienes" component={QuienesSomos} />
                 <Route path="/acercad" component={Acercade} />
                 <Route path="/salirapp" component={SalirdelaApp} />
+                <Route path="/Leve" component={Chat} />
 
                 <Route path="/ensayo" component={MenúEnsayo} />
             </Switch>
