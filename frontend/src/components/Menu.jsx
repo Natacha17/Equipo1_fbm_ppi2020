@@ -2,82 +2,34 @@ import React from 'react';
 import { Link }  from 'react-router-dom';
 import '../Estilos/Menu.css';
 import usuario  from '../imagenes/usuario.png';
-
+import Chat  from '../imagenes/Chat.png';
+import quienessomos from '../imagenes/quienessomos.png';
+import Másinformación  from '../imagenes/Másinformación.png';
+import acerca  from '../imagenes/acerca.png';
 const Menu = (props) => {
 
         return (
     <>
- <div className="album py-5 bg-light">
-    <div className="cargChat">
-      <div className="row">
-        <div className="chat">
-          <div className="card mb-4 shadow-sm">
-          <img className="mb-4" src={usuario} alt="" width="150" height="150"/>
-            <div className="card-body">
-            <Link to='/ensayo'> <button  type="button" className="btn btn-sm btn-outline-primary">Chat</button></Link>         
-              <div className="d-flex justify-content-between align-items-center ">
-                <div className="btn-group">
-               
-                  
-                </div>
-                
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="cardQuienes">
-          <div className="cardQuienes">
-          <img className="mb-4" src={usuario} alt="" width="150" height="150"/>
-            <div className="card-body">
-            <Link to='/e'><button type="button" className="btn btn-sm btn-outline-primary">Quienes Somos</button></Link>
-              <div className="d-flex justify-content-between align-items-center">
-                <div className="btn-group">
-           
-                  
-                </div>  
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="cardmasInfo">
-          <div className="cardmasInfo">
-          <img className="mb-4" src={usuario} alt="" width="150" height="150"/>
-            <div className="card-body">
-            <Link to='/e'><button type="button" className="btn btn-sm btn-outline-primary">Más información</button></Link>
-              <div className="d-flex justify-content-between align-items-center">
-                <div className="btn-group">
-           
-                  
-                </div>  
-              </div>
-            </div>
-          </div>
-        </div>
-       
 
-            <section ><div className="col-md-4">
-          <div className="cardAcerca">
-          <img className="mb-4" src={usuario} alt="" width="150" height="150"/>
-            <div className="card-body">
-            <Link to='/e'><button type="button" className="btn btn-sm btn-outline-primary">Acerca de</button></Link>
-              <div className="d-flex justify-content-between align-items-center">
-                <div className="btn-group">
-           
-                  
-                </div>  
-              </div>
-            </div>
-          </div>
-        </div></section>
-          
-          
-      </div>
-    </div>
-    
-    
+ <container className='conversacion'>
+ <img src={Chat}/>
+ <Link to='/conversacion'> <button  type="button" className="coversa btn-sm btn-outline-primary">Chat</button></Link>         
+ </container>
 
-  </div>
+ <container className='acercaD'>
+ <img src={acerca}/>
+ <Link to='/acerca'> <button  type="button" className="proyecto btn-sm btn-outline-primary">Acerca de</button></Link>         
+ </container>
 
+ <section className='quieneSsomos'>
+ <img src={quienessomos}/>
+ <Link to='/quienesS'> <button  type="button" className="nosotros btn-sm btn-outline-primary">Quienes somos</button></Link>         
+ </section>
+
+ <section className='masinformate'>
+ <img src={Másinformación}/>
+ <Link to='/informa'> <button  type="button" className="btns btn-sm btn-outline-primary">Más información</button></Link>         
+ </section>
 </>
       );
       

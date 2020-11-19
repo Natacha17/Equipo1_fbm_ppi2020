@@ -25,7 +25,7 @@ const Menuenbarra = (props) => {
   <div className="collapse navbar-collapse" id="navbarSupportedContent">
     <ul className="navbar-nav mr-auto">
       <li className="nav-item active">
-        <button   className="btn btn-outline-primary my-2 my-sm-0" type="submit" >    Menú </button>
+      <Link to="/principal">  <button   className="btn btn-outline-primary my-2 my-sm-0" type="submit" >    Menú </button></Link>
       </li>
       <ul className="nav-item">
        <Link to="/chat"> <button className="btn btn-outline-primary my-2 my-sm-0"  type="submit"  >   Chat

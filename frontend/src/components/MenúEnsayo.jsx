@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link }  from 'react-router-dom';
-import '../Estilos/Menu.css';
+//import '../Estilos/Menu.css';
 import usuario  from '../imagenes/usuario.png';
 
 const MenúEnsayo = (props) => {
