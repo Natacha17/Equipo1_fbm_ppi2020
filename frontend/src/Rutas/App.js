@@ -14,8 +14,8 @@ import Clasificacion from '../pages/Clasificacion';
 import QuienesSomos from '../pages/QuienesSomos';
 import Acercade from '../pages/Acercade';
 import SalirdelaApp from '../pages/SalirdelaApp';
-import MenúEnsayo from '../components/MenúEnsayo';
-import Clasificacion from'../pages/Clasificacion'
+import Menu from '../components/Menu';
+
 
 const App = () => {
     return (
@@ -39,9 +39,11 @@ const App = () => {
                 <Route path="/quienes" component={QuienesSomos} />
                 <Route path="/acercad" component={Acercade} />
                 <Route path="/salirapp" component={SalirdelaApp} />
-                <Route path="/Leve" component={Chat} />
-
-                <Route path="/ensayo" component={MenúEnsayo} />
+                <Route path="/conversacion" component={Tiposdeconflicto} />
+                <Route path="/acerca" component={Acercade} />
+                <Route path="/quienesS" component={QuienesSomos} />
+                <Route path="/informa" component={Másinformacion} />
+                <Route path="/principal" component={Menú} />
             </Switch>
              </BrowserRouter>
 
