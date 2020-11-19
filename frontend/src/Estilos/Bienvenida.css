@@ -50,7 +50,9 @@ border:black;
     justify-items: center;
     justify-content: center;
 position: relative;
-right: -80%;
+/*right: -80%;*/
+right: 2px;
+
 }
 .logo{
     padding:0%;

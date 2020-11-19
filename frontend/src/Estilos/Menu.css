@@ -1,36 +1,75 @@
-
-.miboton{
-    padding: 500px;
-}
-.usuario{
-    right: 500px;
-
-}
-.btn{
-    
+.menucompleto{
+    display: flex;
+ width:500px;
+ height: 300px;
+ margin-left: 10px;
+ margin-top:10px;
+ padding: 70px 200px  0px 130px;
 position: relative;
-}
-.cargChat{
+margin:30px;
+
+} 
+.menucompleto{
+    margin:70px 0px 180px 0px;
     position: relative;
-    left: 550px;
 }
-.cargquienes{
-    position: relative;
-    left: 90px;
-    bottom: 380px;
+.conversacion{
+    display: flex;
+    width:300px;
+    height: 300px;
+    margin-left: 10px;
+    margin-top:10px;
+    padding: 70px 200px  0px 130px;
+   position: relative;
+   top:70px;
+   box-sizing: content-box;
+   right: 100px;
+ /*  border: solid #a061ba 4px;*/
+}
+.quieneSsomos{
+    display: flex;
+    width:500px;
+    height: 300px;
+    margin-left: 10px;
+    margin-top:10px;
+    padding: 70px 200px  0px 130px;
+   position: relative;
+   bottom: 100px;
+   
+   
+}.acercaD{
+    display: flex;
+    width:500px;
+    height: 300px;
+    margin-left: 10px;
+    margin-top:10px;
+    padding: 70px 200px  0px 130px;
+   position: relative;
+   left: 600px;
+   
+   bottom: 300px;
+   
+}.masinformate{
+   position: relative; 
+   left: 600px;
+   bottom: 500px;
+}
+
+.conversa{
+    position:relative;
+    right: 100px;
+}
+.proyecto{
+    position:relative;
     
-
-}
-.cargmasInfo{
-    position: relative;
-    right: 395px;
-    bottom: 765px;
     
-
 }
-.cardAcerca{
-    position: relative;
-    text-align: center;
-    bottom:760px ;
 
+.nosotros{
+    position:relative;
+    
 }
+.btns{
+    position:relative;
+    
+}.usuario{}
