@@ -10,7 +10,7 @@ class SalirdelaApp extends Component {
         return (
           <>
       
-          <h1>Salir</h1>
+         
      <Salir/>
      
 </>
