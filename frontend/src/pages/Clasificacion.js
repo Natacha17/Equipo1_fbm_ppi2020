@@ -9,29 +9,20 @@ class Clasificacion extends Component {
     return (
       <>
 
-<h1>Clasificación</h1>
+<h1 className="Titleclasi">Clasificación</h1>
 <Menuenbarra/>
-<form class="bot ">
-<input
-class="form-control mr-sm-2"
-type="search"
-placeholder="Escribe tu problema"
-aria-label="Search"/>
-<button class="enviar " type="submit">
-  Enviar
-</button>
-</form>
+
+<div className='clasific'>
+
 
 <h2> ¿Cómo clasificas tu conflicto?</h2>
- <Link to ="/Leve"><button type="submit" className="btn btn-lg btn-primary btn-flex mb-3 col-6" >Leve</button></Link>
+ <Link to ="/leve">
+ <button class="Leve" type="submit">Leve</button></Link>
 
 
-<button class="grave" type="submit">
-Grave
-</button>
-<button class="critico" type="submit">
-Crítico
-</button>
+<Link  to="/grave"><button class="grave" type="submit">Grave</button></Link>
+
+<Link to='/critico'><button class="critico" type="submit">Crítico</button></Link>
 
 <h3>Mensaje del día</h3>
 <p class="Mensa">
@@ -63,6 +54,8 @@ src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
 integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
 crossorigin="anonymous"
 ></script>
+
+</div>
 </>
 );
 }

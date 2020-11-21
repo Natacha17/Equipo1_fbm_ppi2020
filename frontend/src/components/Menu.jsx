@@ -6,6 +6,7 @@ import Chat  from '../imagenes/Chat.png';
 import quienessomos from '../imagenes/quienessomos.png';
 import Másinformación  from '../imagenes/Másinformación.png';
 import acerca  from '../imagenes/acerca.png';
+
 const Menu = (props) => {
 
         return (

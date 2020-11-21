@@ -131,7 +131,7 @@ button {
   background-color: white;
   border: solid #a061ba 2px;
 }
-.leve {
+.Leve {
   background-color: #62e462;
   border: solid black 5px;
   width: 200px;
@@ -193,4 +193,13 @@ h3 {
   left: 800px;
   top: 200px;
   width: 300px;
+}
+.clasific{
+  top:70px;
+  
+  position: relative;
+}
+.Titleclasi{
+  background-color: #a061ba ;
+  padding: 40px;
 }

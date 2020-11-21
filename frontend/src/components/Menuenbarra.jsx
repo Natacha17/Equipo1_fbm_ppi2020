@@ -1,14 +1,14 @@
 import React from 'react';
 import { Link }  from 'react-router-dom';
-
+import '../Estilos/Menúenbarra.css';
 
 const Menuenbarra = (props) => {
 
      return (
     <>
 
-
-    <div classNameName="App">
+<section className="menuenbarra">
+    <div classNameName="enbarra">
 <nav className="navbar navbar-expand-lg navbar-light bg-light">
   <a className="navbar-brand text-primary" href="#">  Psico-Félix </a>
   <button
@@ -90,6 +90,7 @@ const Menuenbarra = (props) => {
 
 
 </div>
+</section>
 </>
       );
       

@@ -8,10 +8,39 @@ Link{
 }
 .regresa{
     
-   margin: auto;
+   padding: 15px;
    position: relative;
+   left: 950px;
+}
+.perfildesalir{
+    padding: 15px;
+    position: relative;
+    left: 950px; 
 }
 .abandonar{
     position: relative;
-    right: -500px;
+    left: 950px;
+    padding: 15px;
+
 } 
+.titulodesalirapp{
+    background-color: #FAAC58;
+    padding: 40px;
+}
+.copysalir{
+    background-color: #FAAC58;
+    padding: 40px;
+}
+.loguito{
+    position: relative;
+    width: 500px;
+    
+}
+.Frasedesalir{
+    box-sizing: content-box;
+  border: 5px solid #FAAC58;
+  position: relative;
+ left: 20px;
+  bottom: 100px;
+  width: 300px;
+}

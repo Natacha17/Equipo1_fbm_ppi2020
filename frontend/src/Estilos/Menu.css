@@ -72,4 +72,16 @@ margin:30px;
 .btns{
     position:relative;
     
-}.usuario{}
+}.usuario{
+    border: solid #58FAF4 4px;
+  
+}
+.titulomenu{
+    background-color: #58FAF4;
+    padding: 40px;
+}
+.copymenu{
+    background-color:#58FAF4 ;
+    padding: 40px;
+}
+

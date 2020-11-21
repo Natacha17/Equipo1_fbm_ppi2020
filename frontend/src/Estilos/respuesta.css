@@ -1,3 +1,28 @@
-h1{
+.chateo{
   font-size: 20px;
+  box-sizing: content-box;
+  background-color: rgb(138, 230, 194);
+  padding: 40px;
+}
+.respondamos{
+  position: relative;
+  right: 850px;
+  bottom: 200px;
+}
+.responde{
+  padding: 60px;
+  position: relative;
+  left: 760px;
+  font-size: 25px;
+
+}
+.flechita{
+  position: relative;
+  width: 200px;
+  left:1000px;
+  bottom:90px;
+}
+.copyresp{
+  background-color:rgb(138, 230, 194) ;
+  padding: 40px;
 }

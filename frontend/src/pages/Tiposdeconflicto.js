@@ -6,8 +6,9 @@ class Tiposdeconflicto extends Component {
   render() {
     return (
       <>
-      <Menuenbarra/>
+      
         <h1>Tipos de Conflictos</h1>
+        <Menuenbarra/>
         <h2>Conflicto intrapersonal</h2>
         <p class="1">
           Este conflicto ocurre de forma interna, en la mente del individuo.
