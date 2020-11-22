@@ -15,8 +15,10 @@ import QuienesSomos from '../pages/QuienesSomos';
 import Acercade from '../pages/Acercade';
 import SalirdelaApp from '../pages/SalirdelaApp';
 import Respuesta from '../pages/Respuesta';
-import Menu from '../components/Menu';
-
+import Santiago from '../pages/Santiago';
+import Dayanna from '../pages/Dayanna';
+import Natacha from '../pages/Natacha';
+import Karen from '../pages/Karen';
 
 const App = () => {
     return (
@@ -49,6 +51,10 @@ const App = () => {
                 <Route path="/leve" component={Respuesta} />
                 <Route path="/grave" component={Respuesta} />
                 <Route path="/critico" component={Respuesta} />
+                <Route path="/santiago" component={Santiago} />
+                <Route path="/dayanna" component={Dayanna} />
+                <Route path="/natacha" component={Natacha} />
+                <Route path="/karen" component={Karen} />
 
             </Switch>
              </BrowserRouter>

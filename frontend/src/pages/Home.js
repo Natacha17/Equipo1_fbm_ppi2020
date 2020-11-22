@@ -1,6 +1,6 @@
 import React from 'react';
 import Bienvenida from './Bienvenida';
-import Masinformacionpsicologo from './Masinformacionpsicologo';
+
 
 
 
@@ -13,7 +13,7 @@ function Home () {
     <Bienvenida/>
 
 
-  <Masinformacionpsicologo/>
+
  
     </>
   );

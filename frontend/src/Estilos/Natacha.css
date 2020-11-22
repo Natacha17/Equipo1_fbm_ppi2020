@@ -1,0 +1,15 @@
+.descripcionnata{
+    top:200px;
+    left:-100px;
+       position: relative;
+    box-sizing: content-box; 
+    background-color: #F8E0F1;
+    padding: 40px;
+ }
+
+.fotonata{
+   top:-150px;
+   left: 900px ;
+   position: relative;
+}
+ 
