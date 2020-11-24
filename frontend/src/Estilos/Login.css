@@ -34,3 +34,45 @@ text-align: center;
 position: relative;
 right: -7px;
 }
+
+@media screen and (max-width:480px){
+
+  .text-{
+  font-size: 30px;
+  position: relative;
+  right: 300px;
+
+  }
+  .titulofelix{
+  font-size: 30px;
+  right: 30px;
+  position: relative;
+
+
+  }
+  .cuadro {
+   
+    right: 30px;
+    position: relative;
+  }
+  .cuadrodetexto{
+    right: 1000px;
+    position: relative;
+ 
+  }
+  .form-control{
+    right: 1000px;
+  }
+  .login {
+    right: 200px;
+    position: relative;
+  font-size: 40px;
+  width: 200px;
+ 
+  top: 40px;
+  
+  }/*.iniciosesion{
+      position: relative;
+      
+  }*/
+}

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-
 import '../Estilos/Acercade.css';
+import Menuenbarra  from '../components/Menuenbarra';
 
 class Acercade extends Component {
     
@@ -8,7 +8,7 @@ class Acercade extends Component {
         return (
     <>
    <h1>Acerca de</h1> 
-
+<Menuenbarra/>
  <h2 className='chat' > Chat</h2>
  <p className='chat'> Encontrará todos los chats de los estudiantes que solicitan una asesoría</p>
  <h2 className='acerca'>Acerca de </h2>

@@ -35,10 +35,48 @@ color:black;
     background-color:#68EDAA  ;
     padding: 20px;
 
-}h1{
+}.titulomasinfo{
   
     color:black;
  text-align: center;
    padding: 20px;
   
+ }
+ @media screen and (max-width:480px){
+ .titulomasinfo{
+     position: relative;
+     
+    }
+    .amorprop{
+        height: 60px;
+        width: 330px;
+        background-color:#7FCDE4  ;
+    }.depresion{
+        background-color: #C39DF3 ;
+        height: 60px;
+        width: 330px;
+    
+    }
+    .acosoint{
+        background-color:    #F0AB71   ;
+        height: 60px;
+        width: 330px;
+    
+    }
+    .transtornoali{
+        background-color:#68EDAA  ;
+        height: 60px;
+        width: 330px;
+    
+    }
+    .informate{
+        right: 200px;
+        position: relative;
+    }
+ 
+    .Menuenbarra{
+      position: relative;
+      right: 100px;
+    }
+
  }

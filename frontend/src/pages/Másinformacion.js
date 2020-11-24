@@ -8,7 +8,7 @@ class Másinformacion extends Component {
     render() { 
         return (
     <>
-   <h1>Más información</h1>
+   <h1 className="titulomasinfo">Más información</h1>
 
 
    <Masinformacion/>

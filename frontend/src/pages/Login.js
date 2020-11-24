@@ -11,9 +11,9 @@ class Login extends Component {
          
    <div className="iniciosesion">
     <form className="form-signin text-center align-items-center col-6">
-    <h1 className=" text-center ">Inicie Sesión</h1>
-    <label for="inputEmail" className="sr-only mb-3">Documentode identidad</label>
-    <input type="email" id="inputEmail" className="form-control mb-3" placeholder="Email " required="" autofocus=""/>
+    <h1 className=" text- ">Inicie Sesión</h1>
+    <label for="inputEmail" className="cuadro" className=" sr-only mb-3">Documentode identidad</label>
+    <input type="email" id="inputEmail" className="form-control mb-3" placeholder="documento de identidad " required="" autofocus=""/>
     <label for="inputPassword" className="sr-only">Contraseña</label>
     <input type="password" id="inputPassword" className="form-control mb-3 " placeholder="Contraseña" required=""/>
     <div className="checkbox mb-3">

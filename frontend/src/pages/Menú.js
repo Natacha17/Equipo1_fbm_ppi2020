@@ -21,14 +21,11 @@ class Menú extends Component {
 
 
 <Menu/>
-<footer>
-<div class="copymenu">
-  
-  <i class="fab fa-instagram fa-2x"></i> &nbsp;&nbsp;
-  <i class="fab fa-twitter fa-2x"></i> &nbsp;&nbsp;
-  <i class="fab fa-facebook-square fa-2x"></i> &nbsp;&nbsp;
-</div>
-</footer>
+
+
+
+
+ 
 
 
   </>

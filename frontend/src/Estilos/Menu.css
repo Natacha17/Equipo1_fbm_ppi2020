@@ -84,4 +84,70 @@ margin:30px;
     background-color:#58FAF4 ;
     padding: 40px;
 }
+@media screen and (max-width:480px){
+    .conversacion{
+        display: flex;
+        width:5px;
+        margin-left: 10px;
+        margin-top:10px;
+        padding: 70px 200px  0px 130px;
+       position: relative;
+       top:70px;
+       box-sizing: content-box;
+       right: 100px;
+     /*  border: solid #a061ba 4px;*/
+    }
+.fotochat{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    justify-content: center;
+    right: 60px;
+}.coversa {
+    position: relative;
+    right: 38px;
+}.fotoacerca{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    right: 770px; 
+    top: 300px;
+}.proyecto{
+    position: relative;
+    right: 760px; 
+    top: 300px;
+}
+.fotoquienes{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    right: 170px; 
+    top: 100px;
+}
+.nosotros{
+    position: relative;
+    right: 150px; 
+    top:50px;
+}
+.masinformate{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    right: 170px; 
+    top: 100px;
+}.fotomasinformacion{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    right: 630px; 
+    top: -20px;
+
+}.btns{
+    right: 480px;
+    bottom: 250px;
+}
+
+  
+
+}
 

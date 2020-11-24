@@ -11,3 +11,23 @@
    left: 900px ;
    position: relative;
 }
+@media screen and (max-width:480px){
+  
+   .santi{
+      padding: 40px;
+      font-size: 30px;
+   /*  border: solid #a061ba 4px;*/
+  }
+.descripcionsanti{
+   font-size: 20px;
+   top:40px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.fotosanti{
+   width: 200px;
+   position: relative;
+   left: 90px;
+   bottom: 10px;
+
+}
+}

@@ -13,22 +13,22 @@ const Menu = (props) => {
     <>
 
  <container className='conversacion'>
- <img src={Chat}/>
+ <img  className="fotochat" src={Chat}/>
  <Link to='/conversacion'> <button  type="button" className="coversa btn-sm btn-outline-primary">Chat</button></Link>         
  </container>
 
  <container className='acercaD'>
- <img src={acerca}/>
+ <img className="fotoacerca" src={acerca}/>
  <Link to='/acerca'> <button  type="button" className="proyecto btn-sm btn-outline-primary">Acerca de</button></Link>         
  </container>
 
  <section className='quieneSsomos'>
- <img src={quienessomos}/>
+ <img className="fotoquienes" src={quienessomos}/>
  <Link to='/quienesS'> <button  type="button" className="nosotros btn-sm btn-outline-primary">Quienes somos</button></Link>         
  </section>
 
  <section className='masinformate'>
- <img src={Másinformación}/>
+ <img className="fotomasinformacion" src={Másinformación}/>
  <Link to='/informa'> <button  type="button" className="btns btn-sm btn-outline-primary">Más información</button></Link>         
  </section>
 </>

@@ -26,3 +26,15 @@
 .karen{
     background-color: #9FF781;
 }
+@media screen and (max-width:480px){
+    
+    .card{
+
+        position: relative;
+        right: 30px;
+    }
+
+
+  
+
+}

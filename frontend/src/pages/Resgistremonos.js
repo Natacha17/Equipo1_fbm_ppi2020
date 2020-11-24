@@ -9,7 +9,7 @@ class Registremonos extends Component {
     render() { 
         return (
           <>
-          <h1>Psico-Félix</h1>
+          <h1 className="titulofelix">Psico-Félix</h1>
           
 <Registroeinicio/>
 

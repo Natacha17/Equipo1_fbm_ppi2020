@@ -15,7 +15,7 @@ class QuienesSomos extends Component {
  <h4 classNameName="titulocont">Aquí se encuentran los creadores de la página</h4> 
 
  <div className="card" >
-  <img className="card-img-top" src={santiago} alt="Card image cap"/>
+  <img className="fotosrios" className="card-img-top" src={santiago} alt="Card image cap"/>
   <div className="card-body">
     <h5 className="card-title">Santiago Ríos Quintero.</h5>
     <Link to= '/santiago' href="#" className="btn btn-primary">Conóceme</Link>

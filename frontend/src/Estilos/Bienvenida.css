@@ -64,3 +64,31 @@ right: 2px;
     position: relative;
     left:480px ;
 }
+@media screen and (max-width:480px){
+    .logo{
+        flex-direction: column;
+        width: 200px;
+        left: 5px;
+        top: 40px;
+        position: relative;
+     /*   background-color: #13CEB8;*/
+
+    }
+    .letra{
+        font-size: 40px;
+        position: relative;
+        right:20px ;
+    }
+    .letrah2{
+        right:20px ;
+        position: relative;
+    }
+    .siguiente{
+        position: relative;
+        top: 200px;
+        right: 10px;
+    }
+   
+
+
+}

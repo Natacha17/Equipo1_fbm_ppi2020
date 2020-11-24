@@ -15,7 +15,7 @@ const Masinformacion = (props) => {
    <section className='informate'>
      <div classNameName="masinformacion">
        <ul>
- <h5><ol className="amorprop"> <Link to= "/click1" classNameName="botonamor" href="#">Amor propio</Link></ol>
+ <h5><ol className="amorprop"> <Link to= "/click1" classNameName="dropdown-item" href="#">Amor propio</Link></ol>
 
  <ol className="depresion"><Link to="/click2"  classNameName="dropdown-item disabled" href="#" tabindex="-1" aria-disabled="true">Depresión</Link></ol>
   
