@@ -16,9 +16,7 @@ const Salir = (props) => {
 
  <section className='abandonar'> <Link to="/abandono" href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Abandonar</Link></section>
 
- <p className="Frasedesalir">Serás capaz de lograr lo
-    que sea si tu entusiasmo no 
-    tiene límites</p>
+ <p className="Frasedesalir">Serás capaz de lograr lo que sea si tu entusiasmo no tiene límites</p>
 
  <img className="loguito" src={logopsico}/>
 

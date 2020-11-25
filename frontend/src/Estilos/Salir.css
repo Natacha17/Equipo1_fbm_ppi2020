@@ -44,3 +44,50 @@ Link{
   bottom: 100px;
   width: 300px;
 }
+@media screen and (max-width:480px){
+    .titulodesalirapp{
+        right: 30px;
+        position: relative;
+        font-size:30px;
+    
+    }
+    .Frasedesalir{
+        left: -80px;
+        position: relative;
+        font-size: 20px;
+
+    }.regresa{
+    
+        padding: 15px;
+        position: relative;
+        left: -20px;
+        top:200px
+     }
+     .perfildesalir{
+         padding: 15px;
+         position: relative;
+         left: -20px;
+         top:200px 
+     }
+     .abandonar{
+         position: relative;
+         left: -20px;
+         padding: 15px;
+         top:200px
+
+}.loguito{
+    position: relative;
+    top:200px;
+
+    width: 200px;
+    
+}.copysalir{
+    background-color: #FAAC58;
+    padding: 40px;
+    position: relative;
+    top: 300px;
+    height: 100px;
+
+}
+
+}

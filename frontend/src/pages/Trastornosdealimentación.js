@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Trastornos  from '../imagenes/Trastornos.jpg';
-
+import Menuenbarra from '../components/Menuenbarra';
 class Trastornosdealimentación extends Component {
     
     render() { 
@@ -8,6 +8,7 @@ class Trastornosdealimentación extends Component {
     <>
     <div>
    <h1>Trastornos de alimentación</h1>
+   <Menuenbarra/>
    <p>Los tipos comunes de trastornos alimenticios incluyen:</p>
 
 <p>Atracones de comida:

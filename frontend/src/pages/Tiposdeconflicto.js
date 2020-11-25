@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
 import Menuenbarra from '../components/Menuenbarra';
 import {Link} from 'react-router-dom'; 
+import TiposdeConflicto from '../Estilos/TiposdeConflicto.css';
 
 class Tiposdeconflicto extends Component {
   render() {
     return (
       <>
       
-        <h1>Tipos de Conflictos</h1>
+        <h1 className="titulotiposconfli">Tipos de Conflictos</h1>
         <Menuenbarra/>
         <h2>Conflicto intrapersonal</h2>
         <p class="1">
@@ -46,8 +47,8 @@ class Tiposdeconflicto extends Component {
         </button></Link>   
 
         <footer>
-          <div class="copyright">
-            <p>Todos los derechos reservados 2020-2021</p>
+          <div class="copyconfli">
+            
             <i class="fab fa-instagram fa-2x"></i> &nbsp;&nbsp;
             <i class="fab fa-twitter fa-2x"></i> &nbsp;&nbsp;
             <i class="fab fa-facebook-square fa-2x"></i> &nbsp;&nbsp;

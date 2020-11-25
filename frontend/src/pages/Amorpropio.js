@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
 import Amorprop  from '../imagenes/Amorprop.jpeg';
-
+import Menuenbarra from '../components/Menuenbarra';
+import '../Estilos/Amorpropio.css';
 class Amorpropio extends Component {
     
     render() { 
         return (
     <>
-   <h1>Amor propio</h1> <img src={Amorprop}/>
+   <h1>Amor propio</h1> <Menuenbarra/>
+    <img  className="imgamorp" src={Amorprop}/>
 <p>El amor propio es ese músculo que todos deberíamos ejercitar a la
      perfección y en cada momento.
      Aunque eso sí, más que una acción, es un estado mental y emocional, 
