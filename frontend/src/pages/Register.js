@@ -8,7 +8,7 @@ class Register extends Component {
         return (
           <>
           <h1>Registro</h1>
-            <form>
+            <form> 
   <div className="form-row">
     <div className="form-group col-md-6">
       <label for="inputEmail4">Documento de identidad</label>
